@@ -1,0 +1,86 @@
+header{
+	background:#000000;
+	background-image: url("../images/flywheel.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 200px;
+	padding: 2px;
+	/*change the background color*/
+	/*add background image*/
+}
+h1{
+	color:#FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	padding: 4px;
+	font-weight: bolder;
+	font-family:"Times New Roman",Arial,Helvetica;
+	/*change the font color
+	increase the font size*/
+}
+
+h2{
+	color:#000000;
+	
+
+}
+section{
+	display: inline-block;
+	background: #696969;
+}
+
+a{
+	
+	text-align: center;
+	/*text-align: center;*/
+	/*style only thos links in the nav element
+	they should be spaced apart
+	round the borders and remove the underline*/
+}
+
+nav a{
+	color: #000000;
+	box-sizing: border-box;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px;
+	margin:0% 20px;
+	border-radius: 5px; 
+	width:20%;
+	text-align: center;
+	background:rgb(191,191,191,0.4);
+}
+img{
+	width: 100%;
+	border: solid 3px #000000;
+	margin:10% 10% 10% 0%;
+	/*put the images back in and put a border around them
+	make sure they are centered within the .left class
+	put spacing between them on the top and bottom too*/
+}
+
+body{
+ /*change padding and margin*/
+ 	padding: 10px;
+ 	margin:10px;
+}
+.active{
+	background: #FFFFFF;
+	color: #2626a7;
+}
+.left{
+	display: inline-block;
+	float: left;
+	background:#808000;
+	width: 20%;
+	padding: 30px;
+	margin:0 auto;
+}
+.right{
+	display: inline-block;
+	background: #FFFFFF;
+	width: 70%;
+	padding: 3px;
+}
